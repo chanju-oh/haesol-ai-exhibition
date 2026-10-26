@@ -8,3 +8,12 @@
 #haesol-design .hs .event-label b{display:inline-block;background:#fff;padding:4px 10px;border-radius:8px;color:#2855a7;font-weight:500}
 @media(max-width:650px){#haesol-design .hs .event-label{margin-bottom:9px}#haesol-design .hs .event-label span{margin-top:0}#haesol-design .hs .event>span{margin-top:8px}}
 @media(max-width:500px){#haesol-design .hs .brand small{display:block!important;font-size:11px;line-height:1.6;max-width:235px}#haesol-design .hs .school-emblem{width:42px;height:42px}}
+/* Document actions stay beside the title, above either viewer. */
+#haesol-design .hs .viewer-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:20px;flex-wrap:wrap}
+#haesol-design .hs .viewer-heading-text{flex:1 1 420px;min-width:0}
+#haesol-design .hs .viewer-heading-text h2{margin-bottom:10px;overflow-wrap:anywhere}
+#haesol-design .hs .viewer-heading-text p{margin-bottom:0}
+#haesol-design .hs .viewer-top-actions{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:8px;margin-left:auto;padding-top:12px}
+#haesol-design .hs .viewer-top-actions a,#haesol-design .hs .viewer-top-actions button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 14px;border:1px solid #d3dfee;border-radius:12px;background:#fff;color:#214f92;text-decoration:none;white-space:nowrap;font:inherit;font-size:13px}
+#haesol-design .hs .viewer-top-actions a:hover,#haesol-design .hs .viewer-top-actions button:hover{background:#eaf2ff}
+@media(max-width:650px){#haesol-design .hs .viewer-heading{gap:8px}#haesol-design .hs .viewer-heading-text{flex-basis:100%}#haesol-design .hs .viewer-top-actions{padding-top:0}}
