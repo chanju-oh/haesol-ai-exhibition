@@ -17,3 +17,15 @@
 #haesol-design .hs .viewer-top-actions a,#haesol-design .hs .viewer-top-actions button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 14px;border:1px solid #d3dfee;border-radius:12px;background:#fff;color:#214f92;text-decoration:none;white-space:nowrap;font:inherit;font-size:13px}
 #haesol-design .hs .viewer-top-actions a:hover,#haesol-design .hs .viewer-top-actions button:hover{background:#eaf2ff}
 @media(max-width:650px){#haesol-design .hs .viewer-heading{gap:8px}#haesol-design .hs .viewer-heading-text{flex-basis:100%}#haesol-design .hs .viewer-top-actions{padding-top:0}}
+/* Compact project bookshelf */
+#haesol-design .hs .book-grid.project-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:16px}
+#haesol-design .hs .project-grid .project-document{display:flex!important;flex-direction:column;align-items:center;gap:14px;margin:0;padding:18px 12px;min-width:0;text-align:center}
+#haesol-design .hs .project-grid .cover{width:148px;max-width:100%;height:205px;min-height:205px;margin:0!important;padding:14px 12px;text-align:left;gap:14px;flex:none}
+#haesol-design .hs .project-grid .cover span{font-size:12px;white-space:normal}
+#haesol-design .hs .project-grid .cover strong{font-size:13px;line-height:1.6;overflow-wrap:anywhere;font-weight:500}
+#haesol-design .hs .project-grid .book-cover{margin:0!important;height:205px;width:148px;max-width:100%}
+#haesol-design .hs .project-grid .tag{font-size:11px;max-width:100%;margin:0;min-height:23px}
+#haesol-design .hs .project-grid .primary{margin-top:auto;min-height:44px;font-size:13px;padding:9px 12px}
+@media(max-width:1000px){#haesol-design .hs .book-grid.project-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+@media(max-width:650px){#haesol-design .hs .book-grid.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px}#haesol-design .hs .project-grid .project-document{padding:14px 10px;gap:12px}#haesol-design .hs .project-grid .cover{height:195px;min-height:195px;padding:12px 9px;border-left-width:5px}#haesol-design .hs .project-grid .cover strong{font-size:12px}}
+@media(max-width:359px){#haesol-design .hs .book-grid.project-grid{grid-template-columns:1fr!important}}
