@@ -41,3 +41,4 @@
 #haesol-design .hs .model-filter select{max-width:100%;padding:10px;border:1px solid #dce5f2;border-radius:10px;background:white;color:var(--ink);font:inherit}
 #haesol-design .hs header{padding-right:34px}
 @media(max-width:650px){#haesol-design .hs header{padding:18px 20px;gap:12px}#haesol-design .hs header nav{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}#haesol-design .hs header nav button{font-size:12px;padding:8px}#haesol-design .hs .school-link-bar{padding:7px 20px}}
+#haesol-design .hs .model-filter label{flex:none;white-space:nowrap}
